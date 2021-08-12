@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Congressional Candidate</title>
-    <link rel="stylesheet" type="text/css" src="styles/main.css">
-    /head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <title>Congressional Candidate</title>
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+    </head>
+    
     <body>
 
 <!--  -->
         <header>
-        <h1>Congressional Representative</h1>  
+            <img class="banner" src="images/mb banner.png" alt="Blackburn banner">
+            <nav>  
+                <ul class="nav-bar">
+                    <li class="left"><h1>Congressional Representative</h1></li>
+                    <li class="right"><a href="#">Contact</a></li>
+                    <li class="right"><a href="#">About</a></li>
+                    <li class="right"><a href="#">Home</a></li>
+                </ul>
+            </nav>  
         </header>
 
-        <main>
+        <main class="main_content">
 
 <!--  -->
             <div class="rep-info">
@@ -22,40 +34,40 @@
 <!--  -->
                 <section class="basic-info">
 
-                    <p class="rep-image"><img src="images/marsha.jpeg"></p>
+                    <p class="basic-info__img"><img class="mc" src="images/marsha.jpeg"></p>
 
-                    <p class="name"></p>
+                    <p class="basic-info__name"></p>
                         <h2>Marsha Blackburn</h2>
 
-                    <p class="district">District: Tennessee’s 7th congressional district </p>
+                    <p class="basic-info__dist"><strong>District: </strong> Tennessee’s 7th congressional district </p>
 
-                    <p class="pol-aff">Political Affiliation: Republican</p>
+                    <p class="basic-info__pol"><strong>Political Affiliation: </strong> Republican</p>
 
                 </section> <!-- closes basic-info -->
 
 <!--  -->
-                <section class="committees">
+                <section class="comm">
                         <p>
                             <h3>Marsha Blackburn sits on the following committees:</h3>
                     
-                            <ul class="comm-list">
+                            <ul class="comm__list">
                              <li>Senate Committee on Commerce, Science, and Transportation</li>
                              <li>Senate Committee on Armed Services</li>
                              <li>Senate Committee on the Judiciary</li>
                               <li>Senate Committee on Veterans' Affairs</li>
-                            </ul>  <!-- closes comm-list -->
-                </section> <!-- closes committees -->
+                            </ul>  <!-- closes comm__list -->
+                </section> <!-- closes comm -->
 
             </div> <!-- closes rep-info -->
 
 
-            <div class="legislation">
+            <div class="leg">
 
-                <section class="leg">
+                <section class="leg__law">
                         <p>
-                            <h3>Marsha Blackburn sits on the following committees:</h3>
+                            <h3>Marsha Blackburn was the primary sponsor of 12 bills that were enacted. The most recent include:</h3>
 
-                            <ul class="leg-list">
+                            <ul class="leg__list">
                             <li>S. 3820 (116th): Open Technology Fund Authorization Act</li>
                             <li>S. 2017 (116th): Federal Prohibition of Female Genital Mutilation Act of 2019</li>
                             <li>S. 1235 (116th): Women’s Suffrage Centennial Commemorative Coin Act</li>
@@ -70,13 +82,13 @@
                             <li>H.R. 1972 (109th): Franklin National Battlefield Study Act</li>
                             </ul> <!-- closes leg-list -->
                         </p>
-                </section> <!-- closes leg  -->
+                </section> <!-- closes leg__law  -->
                 
-            </div> <!-- closes legislation-->
+            </div> <!-- closes leg-->
 
         <!--  -->
 
         </main>
-    
+        <footer>&copy; 2021 Education Purposes Only for NSS practice. Web designer does not endorse this person :)</footer>
     </body>
 </html>

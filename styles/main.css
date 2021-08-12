@@ -1,0 +1,163 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+    background-color: red;
+    color: white;
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+a:hover {
+    color: black;
+}
+
+body {
+    background-color: red;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    }
+    
+    .main_content {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin: 0px;
+        /* border: 2px dashed red; */
+    }
+    
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px 0px 10px 0px;
+        vertical-align: middle;
+    
+    }
+    
+    h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    h3 {
+
+    }
+    
+    p {
+    font-size: 22px;
+    }
+    
+    div {
+    
+    }
+    
+    section {
+    
+    }
+    
+    ul {
+    
+    }
+
+.rep-info {
+    background-color: white;
+    padding: 20px 30px 20px 20px;
+    /* border: 2px solid purple; */
+    flex: 2;
+}
+
+.basic-info {
+align-self: center;
+padding: 10px 20px;
+}
+
+.basic-info__img {
+    align-self: center;
+    text-align: center;
+}
+
+.mc {
+    border: 5px solid red;
+}
+
+.basic-info__name {
+    text-align: center;
+}
+
+.basic-info__dist {
+    padding: 0px 20px;
+}
+
+.basic-info__pol {
+    padding: 0px 20px;
+}
+
+.comm {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.comm__list {
+    text-align: left;
+}
+
+.leg {
+    background-color: lightgray;
+    padding: 10px 40px 10px 10px;
+    /* border: 2px solid pink; */
+    flex: 2;
+}
+
+.leg__law {
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.leg__list {
+text-align: left;
+}
+
+.nav-bar {
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 20px 0px 0px;
+    overflow: hidden;
+    /* background-color: #000000; */
+  }
+  
+  li.left {
+    vertical-align: middle;
+    float: left;
+    padding: 5px 20px 0px 60px;
+  }
+  
+  li.right {
+    vertical-align: middle;
+    float: right;
+    padding: 15px 20px 0px 20px;
+  /*   font-size: 20px; */
+  }
+
+  footer {
+      padding: 10px;
+  }
